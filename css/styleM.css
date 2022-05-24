@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "InterRegular";
+  src: url("../fonts/InterRegular/InterRegular.eot");
+  src: url("../fonts/InterRegular/InterRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/InterRegular/InterRegular.woff") format("woff"),
+    url("../fonts/InterRegular/InterRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+.container {
+  width: 600px;
+  margin: 0 0 0 430px;
+  animation: fadeIn;
+  animation-duration: 1s;
+}
+.num__Reg {
+  width: 270px;
+  height: 30px;
+  background-color: #737373;
+  border-radius: 20px;
+  display: flex;
+}
+.num {
+  width: 56px;
+  height: 25px;
+  background: linear-gradient(45deg, #f83600, #f9d423);
+  border-radius: 20px;
+  margin: auto 0 auto 3px;
+  display: flex;
+}
+.num__Reg p {
+  font-size: 12pt;
+  margin: auto;
+}
+.num p {
+  font-weight: 700;
+}
+.title {
+  width: 600px;
+  height: 95px;
+  margin-top: 15px;
+}
+.title p {
+  font-size: 30pt;
+  font-weight: 700;
+}
+.description {
+  width: 410px;
+  margin-top: 60px;
+}
+.btn {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+}
+.circle__1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  outline: 2px solid #f89114;
+  outline-offset: -2px;
+  margin: auto auto auto 0;
+  display: flex;
+  transition: 0.3s;
+  animation: zoomIn;
+  animation-duration: 1s;
+}
+.circle__2,
+.circle__3 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  outline: 2px solid #f89114;
+  outline-offset: -2px;
+  margin: auto;
+  display: flex;
+  transition: 0.3s;
+  animation: zoomIn;
+  animation-duration: 1s;
+}
+.circle__4 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  outline: 2px solid #f89114;
+  outline-offset: -2px;
+  margin: auto 0 auto auto;
+  display: flex;
+  transition: 0.3s;
+  animation: zoomIn;
+  animation-duration: 1s;
+}
+.btn p {
+  margin: auto;
+}
+.btn div:hover {
+  background-color: #f89114;
+}
+.info__Field {
+  width: 100%;
+  height: 145px;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-radius: 20px;
+  outline: 2px solid #ffffff;
+  outline-offset: -2px;
+}
+.description__Text__1,
+.description__Text__2 {
+  width: 90%;
+  font-size: 12pt;
+  color: #737373;
+}
+.description__Text__1 {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.gif {
+  width: 480px;
+  height: 480px;
+  position: absolute;
+  background-color: #f89114;
+  top: 265px;
+  left: 870px;
+  animation: fadeIn;
+  animation-duration: 1s;
+}
+.gif img {
+  width: 100%;
+  height: 100%;
+}

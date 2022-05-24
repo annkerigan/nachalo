@@ -1,0 +1,29 @@
+/* переменные цвета*/
+@gray: #737373;
+@orange: #f88511;
+
+/*миксин для анимации из фреймворка CSS*/
+.animation__zoom {
+  animation: zoomIn;
+  animation-duration: 1s;
+}
+
+/*цикл для градиента*/
+@list__gradient: #f83600 #f9d423;
+.color-generator(@index: 1, @color) when (@index <= length(@list__gradient)) {
+  @item: extract(@list-red, @index);
+  .clr-@{color}-@{index} {
+    color: @item;
+  }
+  .color-generator(@index + 1, @color);
+}
+
+.circle__L2 {
+  size: 58px, 58px;
+  border-radius: 50%;
+  background-color: @gray;
+  .color-generator(@color: red);
+  margin: auto auto auto 0;
+  display: flex;
+  .animation__zoom;
+}
