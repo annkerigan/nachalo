@@ -43,6 +43,12 @@
   outline-offset: 0;
   outline: none;
 }
+.box__L a,
+.box__R a {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+}
 .logo__vk {
   width: 230px;
   height: 230px;
